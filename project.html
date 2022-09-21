@@ -1,0 +1,63 @@
+<html>
+<head>
+<title> first web </title>
+</head>
+<body>
+<div class="homepage">
+<div class="hptext">
+<marquee><b>Pure goodness from the mother earth</b></marquee> <br>
+<a href=table.html id="blink"> shop natural now>> </a>
+</div>
+<div class="hpbtmtext">
+For any other queries, 
+<a href=info.html> please contact us! </a>
+</div>
+<div class="maintext">
+<center> STRAIGHT <sub>from</sub> SOIL </center>
+</div>
+</div>
+<script type="text/javascript">
+        var blink=document.getElementById('blink');
+  	setInterval(function () 
+		{
+		blink.style.opacity=(blink.style.opacity == 0 ? 1 : 0);}, 1000); 
+    </script>
+</body>
+<style>
+	.{
+		margin=0;
+		padding=0;
+	}
+	.homepage{
+		background-image: url('https://media.istockphoto.com/photos/senior-man-with-bunch-of-freshly-harvested-carrots-picture-id1251268131?k=20&m=1251268131&s=612x612&w=0&h=Elmzhbu2RBxIIFq20km7OO3Po69YbruWyrOy5Krmps0=');
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 100vh;
+		}
+	.hptext{
+		font-family: Copperplate Gothic;
+		color: white;
+		text-align: center;
+		background-color: black;
+		font-size: 18;}
+	.hpbtmtext{
+		position: absolute;
+		bottom:2px;
+		right: 20px;
+		width:100vw;
+		color: white;
+		text-align: right;
+		font-size: 16;
+}
+	.maintext{
+		font-family: Elephant;
+		position: absolute;
+		top: 250;
+		width:100vw;
+		color: brown;
+		background-color: white;
+		font-size: 50;
+}
+
+</style>
+</html>
